@@ -46,5 +46,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/Monsef-Noubadji})
-- Twitter [@your-twitter](https://{twitter.com/MonsefNoubadji)
+- GitHub [@Monsef-Noubadji](https://{github.com/Monsef-Noubadji})
+- Twitter [@MonsefNoubadji](https://{twitter.com/MonsefNoubadji)
