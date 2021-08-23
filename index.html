@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>404 Not Found</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+    *{
+      margin : 0;
+      padding: 0;
+      box-sizing:border-box;
+    }
+
+    body {
+      font-family: "Poppins",sans-serif;
+    }
+    
+    .wrapper{
+      width:100%;
+      height:100%;
+    }
+    .header{
+      margin:40px 60px;
+      font-size:1.3rem;
+      color :#333333;
+    }
+    .main{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .img{
+      width:40%;
+      height:auto;
+      
+    }
+    .text{
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      align-items: flex-start;
+      /* padding:1rem; */
+    }
+    h1{
+      font-size: 3.3em;
+      font-family:"Space mono",sans-serif;
+      margin:0 0 3rem 1rem;
+      color:#333333;
+    }
+    p{
+      font-family:"Space mono",sans-serif;
+      font-size: 1.2rem;
+      font-weight:400;
+      margin:0 0 2rem 1rem;
+      letter-spacing: 2px;
+      color:#4a4a4a;
+    }
+    .btn{
+      border:none;
+      background: #333333;
+      font-size: 1rem;
+      color:#f4f4f4;
+      padding:1em;
+      margin:3rem 0 3rem 1rem;
+    
+    }
+    @media screen and (max-width: 450px){
+      .main{
+        flex-direction:column;
+      }
+      .img{
+      width:100%;
+      height:auto;
+      
+      }
+    }
+    </style>
+  </head>
+  <body>
+   <div class="wrapper">
+     <div class="header">
+       <h3>404 Not found</h3>
+     </div>
+     <div class="main">
+       <img class="img" src="Scarecrow.png">
+       <div class="text">
+         <h1>I have Bad News<br> For You</h1>
+         <p>The page you are looking <br>for might be removed or<br> temporarily unavailable.</p>
+         <button class="btn">Back To Homepage</button>
+       </div>
+     </div>
+   </div>
+  </body>
+</html>
